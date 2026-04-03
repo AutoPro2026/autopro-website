@@ -8,8 +8,9 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: white;
 }
 
 nav a {
@@ -75,7 +76,14 @@ header h2 {
 }
 
 nav a {
-  margin-left: 20px;
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #000;
 }
 .hero-box h1 {
   font-size: 32px;
@@ -111,4 +119,9 @@ p {
   margin-top: 20px;
   max-width: 600px;
   background-color: white;
+}
+header h2 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 1px;
 }
