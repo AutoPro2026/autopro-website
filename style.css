@@ -1,6 +1,8 @@
 body {
   font-family: Arial, sans-serif;
   padding: 40px;
+  color: #222;
+  background-color: #ffffff;
 }
 
 header {
@@ -8,14 +10,15 @@ header {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 40px;
-  padding: 18px 0;
-  border-bottom: 1px solid #e5e5e5;
-  background-color: white;
+  padding: 20px 25px;
+  border-bottom: 2px solid #dcdcdc;
+  background-color: #f8f8f8;
+  border-radius: 8px;
 }
 
 header h2 {
   margin: 0;
-  font-size: 22px;
+  font-size: 24px;
   letter-spacing: 1px;
 }
 
@@ -29,8 +32,54 @@ nav a {
 nav a:hover {
   color: #000;
 }
+
 main {
   max-width: 1000px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+}
+
+.hero-box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 500px;
+}
+
+.hero-box h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.hero-box p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
 }
 
 .button {
@@ -40,10 +89,11 @@ main {
   background-color: black;
   color: white;
   text-decoration: none;
+  border-radius: 6px;
 }
 
-h2 {
-  margin-top: 40px;
+.button:hover {
+  background-color: #333;
 }
 
 .product-grid {
@@ -57,6 +107,7 @@ h2 {
   border: 1px solid #ccc;
   padding: 15px;
   border-radius: 6px;
+  background-color: white;
 }
 
 .product-card img {
@@ -64,54 +115,6 @@ h2 {
   height: 150px;
   object-fit: contain;
   margin-bottom: 10px;
-}
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-.hero {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  background-color: #e0e0e0;
-}
-.hero-box {
-  background-color: white;
-  padding: 30px;
-  border-radius: 8px;
-  max-width: 500px;
-}
-header h2 {
-  margin: 0;
-}
-
-nav a {
-  margin-left: 25px;
-  text-decoration: none;
-  color: #333;
-  font-weight: 600;
-}
-
-nav a:hover {
-  color: #000;
-}
-.hero-box h1 {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-
-.hero-box p {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-  color: #444;
-}
-h1 {
-  font-size: 36px;
-  margin-bottom: 15px;
-}
-
-p {
-  line-height: 1.6;
 }
 
 .product-card h3 {
@@ -121,6 +124,7 @@ p {
 .product-card p {
   margin-bottom: 10px;
 }
+
 .contact-card {
   border: 1px solid #ccc;
   padding: 20px;
@@ -128,9 +132,4 @@ p {
   margin-top: 20px;
   max-width: 600px;
   background-color: white;
-}
-header h2 {
-  margin: 0;
-  font-size: 22px;
-  letter-spacing: 1px;
 }
